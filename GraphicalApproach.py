@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import math
 
 # Put function here
-def fn(x):
+def f(x):
 
     #Eg. Sin(10x) + Cos(3x)
     try:
@@ -13,7 +13,7 @@ def fn(x):
 
 # plotting
 x_val = np.linspace(3,6)
-ft = np.vectorize(fn)(x_val)
+ft = np.vectorize(f)(x_val)
 plt.plot(x_val, ft, label='Cp')
 plt.grid(True)
 plt.title('Sin(10x) + Cos(3x)')

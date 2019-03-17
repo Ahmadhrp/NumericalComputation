@@ -5,11 +5,13 @@
     Eq# math.sqrt(9.81 * mass / 0.25) * math.tanh(math.sqrt(9.81 * 0.25 /mass) * 4) - 36
 
 3 - Exercise 5.1 Bisection example bungee jumping equation related to coefficient drag x1=0.2, xu=0.5 , es = 5
-    Eq# return math.sqrt(9.81 * 95 / coef) * math.tanh(math.sqrt(9.81 * coef / 95) * 9) - 46
+    Eq# math.sqrt(9.81 * 95 / coef) * math.tanh(math.sqrt(9.81 * coef / 95) * 9) - 46
 
 4 - Exercise 5.21 Heat of dry air related to temperature x1=0, xu=1200 , es = 0.5
-    Eq# return 0.99403 + ((1.671 * math.pow(10, -4)) * temperature) + (
+    Eq# 0.99403 + ((1.671 * math.pow(10, -4)) * temperature) + (
                     (9.7215 * math.pow(10, -8)) * math.pow(temperature, 2)) \
                - ((9.5838 * math.pow(10, -11)) * math.pow(temperature, 3)) + (
                            (1.9520 * math.pow(10, -14)) * math.pow(temperature, 4)) - 1.1
 
+5 -  Eg. #6.2 (e^-x) - x = 0
+6 -  Eg. #6.3 x^10 - 1
